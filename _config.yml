@@ -27,10 +27,10 @@ author:
   name             : "Hanchun Yuan"
   pronouns         : # example: "she/her"  
   bio              : "Hello, welcome!"
-  location         : "Jinhua, Zhejiang, China"
+  location         : "hanchunyuan@zjnu.edu.cn"
   employer         : "Zhejiang Normal University"
-  uri              : "hanchunyuan@zjnu.edu.cn"
-  email            : "hanchunyuan@zjnu.edu.cn" 
+  uri              : #"hanchunyuan@zjnu.edu.cn"
+  email            : #"hanchunyuan@zjnu.edu.cn" 
 
   # Academic websites
   academia         : # URL
