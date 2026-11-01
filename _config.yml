@@ -27,15 +27,15 @@ author:
   name             : "Hanchun Yuan"
   pronouns         : # example: "she/her"  
   bio              : "Hello, welcome!"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Jinhua, Zhejiang, China"
+  employer         : "Zhejiang Normal University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "hanchunyuan@zjnu.edu.cn" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
