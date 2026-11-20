@@ -1,0 +1,49 @@
+- title: "Asymptotically Optimal Collaborative Caching in Edge Computing Systems"
+  authors: [Hongjie Guo, Jinchao Wu, Jianxu Shen, Hanchun Yuan]
+  conference: "Computing and Combinatorics (COCOON)"
+  year: 2026
+  series: Lecture Notes in Computer Science
+  volume: 16835
+  pages: "120–133"
+  doi: 10.1007/978-981-92-3309-0_10
+  bibtex: https://dblp.org/rec/conf/cocoon/GuoWSY26.bib
+
+- title: "A Quadratic Kernel for {Claw, Diamond}-free Deletion"
+  authors: [Hanchun Yuan]
+  conference: "Theory and Applications of Models of Computation (TAMC)"
+  year: 2025
+  series: Lecture Notes in Computer Science
+  volume: 16084
+  pages: "367–378"
+  doi: 10.1007/978-981-95-4839-2_29
+  bibtex: https://dblp.org/rec/conf/tamc/Yuan25.bib
+
+- title: "Kernel for Proper Helly Circular-Arc Vertex Deletion: Smaller and Simpler via Graph Isomorphism"
+  authors: [Hanchun Yuan, Zhen Zhang]
+  conference: "Combinatorial Optimization and Applications (COCOA)"
+  year: 2024
+  series: Lecture Notes in Computer Science
+  volume: 15434
+  pages: "388–400"
+  doi: 10.1007/978-981-96-4445-2_32
+  bibtex: https://dblp.org/rec/conf/cocoa/YuanZ24.bib
+
+- title: "Modification Problems Toward Proper (Helly) Circular-Arc Graphs"
+  authors: [Yixin Cao, Hanchun Yuan, Jianxin Wang]
+  conference: "Mathematical Foundations of Computer Science (MFCS)"
+  year: 2023
+  series: LIPIcs
+  volume: 272
+  pages: "31:1–31:14"
+  doi: 10.4230/LIPIcs.MFCS.2023.31
+  bibtex: https://dblp.org/rec/conf/mfcs/0001Y023.bib
+
+- title: "Polynomial Kernels for Paw-Free Edge Modification Problems"
+  authors: [Yixin Cao, Yuping Ke, Hanchun Yuan]
+  conference: "Theory and Applications of Models of Computation (TAMC)"
+  year: 2020
+  series: Lecture Notes in Computer Science
+  volume: 12337
+  pages: "37–49"
+  doi: 10.1007/978-3-030-59267-7_4
+  bibtex: https://dblp.org/rec/conf/tamc/0001KY20.bib

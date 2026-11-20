@@ -13,27 +13,20 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Journal Articles</h2>
-{% for article in site.data.journal_articles %}
-  <article class="archive__item">
-    <h3 class="archive__item-title">
-      <a href="https://doi.org/{{ article.doi | escape }}">{{ article.title | escape }}</a>
-    </h3>
-    <p>
-      {{ article.authors | join: ", " | escape }}<br>
-      <cite>{{ article.journal | escape }}</cite>,
-      {{ article.volume }}{% if article.issue %}({{ article.issue }}){% endif %}{% if article.article_number %},
-        article {{ article.article_number }}{% elsif article.pages %}, pp. {{ article.pages }}{% endif %},
-      {{ article.year }}.
-      <a href="{{ article.bibtex | escape }}" aria-label="BibTeX for {{ article.title | escape }}">BibTeX</a>
-    </p>
-  </article>
-{% endfor %}
-
 {% for category in site.publication_category %}
+  {% assign records = nil %}
+  {% case category[0] %}
+    {% when "manuscripts" %}
+      {% assign records = site.data.journal_articles %}
+    {% when "conferences" %}
+      {% assign records = site.data.conference_papers %}
+  {% endcase %}
   {% assign entries = site.publications | where: "category", category[0] %}
-  {% if entries.size > 0 %}
+  {% if records.size > 0 or entries.size > 0 %}
     <h2>{{ category[1].title }}</h2>
+    {% for record in records %}
+      {% include publication-list-item.html article=record %}
+    {% endfor %}
     {% for post in entries reversed %}
       {% include archive-single.html %}
     {% endfor %}
