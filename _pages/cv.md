@@ -21,6 +21,8 @@ redirect_from:
 
 **Ph.D.**, Central South University
 
+**Master's degree**, Central South University
+
 ## Research Interests
 
 - Parameterized algorithms and approximation algorithms
