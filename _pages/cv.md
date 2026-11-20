@@ -1,64 +1,38 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
+  - /cv-json/
+  - /resume-json
 ---
 
-{% include base_path %}
+**{{ site.author.name }}**
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[{{ site.author.email }}](mailto:{{ site.author.email }}) · [Academic homepage]({{ '/' | relative_url }})
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Academic Appointment
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Lecturer**, College of Computer Science and Technology, Zhejiang Normal University
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Ph.D.**, Central South University
+
+## Research Interests
+
+- Parameterized algorithms and approximation algorithms
+- Graph modification problems
+- Algorithms for block-structured integer programs
+
+<h2>Journal Articles</h2>
+{% for record in site.data.journal_articles %}
+  {% include publication-list-item.html article=record %}
+{% endfor %}
+
+<h2>Conference Papers</h2>
+{% for record in site.data.conference_papers %}
+  {% include publication-list-item.html article=record %}
+{% endfor %}
