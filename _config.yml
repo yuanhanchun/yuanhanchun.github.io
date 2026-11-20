@@ -9,14 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Home"
+title                    : "Hanchun Yuan"
 title_separator          : "-"
 name                     : &name "Hanchun Yuan"
 description              : &description "Hanchun's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yuanhanchun.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yuanhanchun/academicpages.github.io"
+repository               : "yuanhanchun/yuanhanchun.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,11 +26,11 @@ author:
   avatar           : "profile-yuan.jpg"
   name             : "Hanchun Yuan"
   pronouns         : # example: "she/her"  
-  bio              : "A Human."
-  location         : "hanchunyuan@zjnu.edu.cn"
+  bio              : "Lecturer in Computer Science"
+  location         :
   employer         : "Zhejiang Normal University"
   uri              : #"hanchunyuan@zjnu.edu.cn"
-  email            : #"hanchunyuan@zjnu.edu.cn" 
+  email            : "hanchunyuan@zjnu.edu.cn"
 
   # Academic websites
   academia         : # URL

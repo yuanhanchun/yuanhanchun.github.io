@@ -1,0 +1,54 @@
+- title: "The minimum number of edges in (p + 1)K₂-saturated graphs"
+  authors: [Xiaoteng Zhou, Kazuya Haraguchi, Hanchun Yuan]
+  journal: Discrete Mathematics
+  year: 2027
+  volume: 350
+  issue: 3
+  article_number: 115489
+  doi: 10.1016/j.disc.2026.115489
+  bibtex: https://dblp.org/rec/journals/dm/ZhouHY27.bib
+
+- title: "A quadratic kernel for {claw, diamond}-free deletion"
+  authors: [Hanchun Yuan, Zhen Zhang]
+  journal: Theoretical Computer Science
+  year: 2026
+  volume: 1085
+  article_number: 116198
+  doi: 10.1016/j.tcs.2026.116198
+  bibtex: https://dblp.org/rec/journals/tcs/YuanZ26a.bib
+
+- title: "Kernel for proper Helly circular-arc vertex deletion"
+  authors: [Hanchun Yuan, Zhen Zhang]
+  journal: Theoretical Computer Science
+  year: 2026
+  volume: 1084
+  article_number: 116180
+  doi: 10.1016/j.tcs.2026.116180
+  bibtex: https://dblp.org/rec/journals/tcs/YuanZ26.bib
+
+- title: "Modification problems toward proper (Helly) circular-arc graphs"
+  authors: [Yixin Cao, Hanchun Yuan, Jianxin Wang]
+  journal: Information and Computation
+  year: 2024
+  volume: 301
+  article_number: 105211
+  doi: 10.1016/j.ic.2024.105211
+  bibtex: https://dblp.org/rec/journals/iandc/CaoYW24.bib
+
+- title: "Improved kernels for triangle packing in tournaments"
+  authors: [Hanchun Yuan, Qilong Feng, Jian-xin Wang]
+  journal: Science China Information Sciences
+  year: 2023
+  volume: 66
+  issue: 5
+  doi: 10.1007/s11432-021-3551-2
+  bibtex: https://dblp.org/rec/journals/chinaf/YuanFW23.bib
+
+- title: "Polynomial kernels for paw-free edge modification problems"
+  authors: [Hanchun Yuan, Yuping Ke, Yixin Cao]
+  journal: Theoretical Computer Science
+  year: 2021
+  volume: 891
+  pages: "1–12"
+  doi: 10.1016/j.tcs.2021.08.015
+  bibtex: https://dblp.org/rec/journals/tcs/YuanKC21.bib

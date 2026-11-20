@@ -5,32 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
+<p>Browse my publication record on <a href="https://dblp.org/pid/261/9827.html">DBLP</a>.</p>
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
+<h2>Journal Articles</h2>
+{% for article in site.data.journal_articles %}
+  <article class="archive__item">
+    <h3 class="archive__item-title">
+      <a href="https://doi.org/{{ article.doi | escape }}">{{ article.title | escape }}</a>
+    </h3>
+    <p>
+      {{ article.authors | join: ", " | escape }}<br>
+      <cite>{{ article.journal | escape }}</cite>,
+      {{ article.volume }}{% if article.issue %}({{ article.issue }}){% endif %}{% if article.article_number %},
+        article {{ article.article_number }}{% elsif article.pages %}, pp. {{ article.pages }}{% endif %},
+      {{ article.year }}.
+      <a href="{{ article.bibtex | escape }}" aria-label="BibTeX for {{ article.title | escape }}">BibTeX</a>
+    </p>
+  </article>
+{% endfor %}
+
+{% for category in site.publication_category %}
+  {% assign entries = site.publications | where: "category", category[0] %}
+  {% if entries.size > 0 %}
+    <h2>{{ category[1].title }}</h2>
+    {% for post in entries reversed %}
       {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  {% endif %}
+{% endfor %}
